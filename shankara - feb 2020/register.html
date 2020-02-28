@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Register</title>
+
+    <style type="text/css">
+      
+
+
+      .jn{
+        background-image: url("pic6.png");
+        background-repeat: none;
+        background-color: grey;
+        min-height: 100vh;
+        text-align: center;
+        margin: 0px;
+      }
+
+      #img1{
+        height: 200%;
+        z-index: 2 !important;
+      }
+
+      .myBtn{
+        position: relative;
+        top: 10% !important;
+        margin-top: 50%;
+        font-size: 200%;
+        box-shadow: 3px 3px 5px 5px #ffffff;
+
+      }
+
+      .lab{
+        font-size: 140%;
+        font-weight: bold;
+        color: #eb2f06;
+        font-family: 'Lacquer', ;
+      }
+
+      .top{
+        margin-top: 70px;
+      }
+
+      .btn1{
+        background-color: #0c2461;
+        font-size: 190%;
+      }
+
+    </style>
+
+
+
+  </head>
+
+
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+      <a href="#" class="navbar-brand">E-Services </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_bar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav_bar">
+        
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="help.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="calling_help.html" class="nav-link">Help! </a>
+          </li>
+          <li class="nav-item">
+            <a href="help_inside.html" class="nav-link">Help Others!</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Rewards</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">E-Wallet</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Register / Login</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+    
+
+<!--
+  <img src="pic2.png" class="img-fluid" id="img1">
+
+<a href="" class="btn btn-primary btn-lg myBtn" >Help Me!</a>
+-->
+
+
+\+?\d[\d -]{8,12}\d
+
+
+  <div class="jumbotron jn">
+    
+    <form class="top">
+      <div  class="form-group">
+          <label for="validationDefault01" class="lab">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="first name" required>
+      </div>
+      <div  class="form-group">
+          <label for="validationDefault01" class="lab">Last name</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="Last name" required>
+      </div>
+
+      <div  class="form-group">
+          <label for="validationDefault01" class="lab">Phone Number</label>
+          <input type="text" pattern="[789][0-9]{9}" class="form-control" placeholder="eg. 9680302306" required>
+      </div>
+
+      <div class="form-group">
+        <label for="validationDefault03" class="lab">City</label>
+        <input type="text" class="form-control" id="validationDefault03" placeholder="Jaipur" required>
+      </div>
+
+      <div class="form-group">
+        <label for="validationDefault03" class="lab">State</label>
+        <input type="text" class="form-control" id="validationDefault03" placeholder="Rajasthan" required>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="lab">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1" class="lab">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1" class="lab">Confirm Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label lab" for="exampleCheck1">I agree to terms and conditions</label>
+      </div>
+
+        <a href="index.html" type="submit" class="btn btn-success btn1">REGISTER</a>
+
+
+
+    </form>
+
+
+
+  </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      
+
+
+
+
+    </script>
+
+
+  </body>
+</html>
+
+
+
+<!--
+    <form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">First name</label>
+      <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">Last name</label>
+      <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefaultUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault03">City</label>
+      <input type="text" class="form-control" id="validationDefault03" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationDefault04">State</label>
+      <select class="custom-select" id="validationDefault04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationDefault05">Zip</label>
+      <input type="text" class="form-control" id="validationDefault05" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+-->
